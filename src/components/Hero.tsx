@@ -8,10 +8,15 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-            Premium Hosting
-            <span className="block">Solutions</span>
-          </h1>
+          <div className="mb-6">
+            <h1 className="text-3xl md:text-4xl font-bold mb-2 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              BlueNovaSite.com
+            </h1>
+            <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              Premium Hosting
+              <span className="block">Solutions</span>
+            </h2>
+          </div>
           <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
             Power your digital presence with our cutting-edge web hosting, cloud storage, and platform hosting services.
           </p>

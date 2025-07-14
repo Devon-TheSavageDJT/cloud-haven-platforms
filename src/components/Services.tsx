@@ -11,14 +11,15 @@ const Services = () => {
       description: "Professional web hosting with enterprise-grade infrastructure",
       features: [
         "99.9% Uptime Guarantee",
+        "10 Personalised Email Addresses",
         "SSD Storage",
         "Free SSL Certificates",
         "Daily Backups",
         "24/7 Support",
         "One-Click WordPress Install"
       ],
-      price: "$9.99",
-      popular: false
+      price: "R120",
+      popular: true
     },
     {
       icon: Cloud,
@@ -32,8 +33,8 @@ const Services = () => {
         "API Access",
         "Unlimited Bandwidth"
       ],
-      price: "$19.99",
-      popular: true
+      price: "R299",
+      popular: false
     },
     {
       icon: Globe,
@@ -47,7 +48,7 @@ const Services = () => {
         "CI/CD Pipeline",
         "Advanced Monitoring"
       ],
-      price: "$39.99",
+      price: "R599",
       popular: false
     }
   ];
