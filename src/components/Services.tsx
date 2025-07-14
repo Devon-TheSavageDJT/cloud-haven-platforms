@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Server, Cloud, Globe, Zap, Shield, HeadphonesIcon } from "lucide-react";
@@ -33,7 +32,7 @@ const Services = () => {
         "API Access",
         "Unlimited Bandwidth"
       ],
-      price: "R299",
+      price: "R150",
       popular: false
     },
     {
@@ -48,7 +47,7 @@ const Services = () => {
         "CI/CD Pipeline",
         "Advanced Monitoring"
       ],
-      price: "R599",
+      price: "R275",
       popular: false
     }
   ];
